@@ -1,0 +1,69 @@
+
+.header {
+    padding: 100px;
+    text-align: center;
+    background-color:#fecd45 ;
+    color:#2568fb;
+    font-size:20px;
+    margin: 0%;
+  }
+  body{
+    background-color:#d3cfc6;
+    padding: 0%;
+    display: grid;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 0%;
+    border: 1px solid violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nam {
+  background-color:darkturquoise;
+  color: white;
+  font-size: 2rem;
+}
+.edu {
+  background-color: blanchedalmond;
+}
+.ww{
+  background-color:#6bb77b ;
+}
+.skills {
+  background-color: brown;
+}
+.Pro{
+  background-color: #d76f30;
+}
+.Courses {
+  background-color:#d6a3fb;
+}
+.cc{
+  background-color: #e5b9a8;
+}
+.footer{
+  background-color:yellowgreen;
+  display: block;
+  
+}
+@media(min-width:600px){
+ .header{
+  font-size: 1.5rem;
+ }
+ 
+ h2{
+  font-size: 30px;
+}
+li{
+  font-size: 18px;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+}
